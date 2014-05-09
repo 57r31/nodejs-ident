@@ -1,4 +1,4 @@
-var net = require("net");
+var net		= require("net");
 var userId	= process.argv[2] || "username";
 var system	= process.argv[3] || "UNIX";
 var ipAddr	= process.argv[4] || "127.0.0.1";
